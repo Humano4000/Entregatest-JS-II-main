@@ -9,7 +9,8 @@ function crearGato(nombre, edad) {
   return 
   this.nombre
   this.edad
-  this.meow; //mirar
+  this.meow; 
+
 }
 
 function agregarPropiedad(objeto, propiedad) {
@@ -19,6 +20,7 @@ function agregarPropiedad(objeto, propiedad) {
   // Tu código:
   objeto.null
   return objeto
+
 }
 
 function invocarMetodo(objeto, metodo) {
@@ -35,6 +37,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
   return objetoMisterioso.NumeroMisterioso*5;
+
 }
 
 function eliminarPropiedad(objeto, unaPropiedad) {
@@ -44,6 +47,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // Tu código:
   delete objeto[unaPropiedad]
   return objeto;
+
 }
 
 function nuevoUsuario(nombre, email, password) {
@@ -52,6 +56,7 @@ function nuevoUsuario(nombre, email, password) {
   // Tu código:
   nombre.email.password;
   return objeto;
+
 }
 
 function tieneEmail(usuario) {
@@ -59,11 +64,7 @@ function tieneEmail(usuario) {
   // De lo contratio, devuelve "false"
   // Tu código:
   return usuario["email"];
-  if(email)
-  {
-    return "true";
-  }
-  return "false";
+
 }
 
 function tienePropiedad(objeto, propiedad) {
@@ -72,11 +73,7 @@ function tienePropiedad(objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
   return propiedad === objeto["propiedad"];
-  if(propiedad)
-  {
-    return "true";
-  }
-  return "false";
+
 }
 
 function verificarPassword(usuario, password) {
@@ -85,6 +82,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
   return password === usuario["password"];
+
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
@@ -102,7 +100,8 @@ function agregarAmigo(usuario, nuevoAmigo) {
   // Devuelve el objeto "usuario"
   // // Tu código:
   usuario["amigos"].push(nuevoAmigo);
-  return usuario;   
+  return usuario; 
+
 }
 
 function pasarUsuarioAPremium(usuarios) {
@@ -126,10 +125,10 @@ function sumarLikesDeUsuario(usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
-  const posts.usuario.posts;
-  let sumaLikes = posts.reduce((acumulador.obj) =>{
+  const posts; usuario; post;
+  let sumaLikes = posts.reduce((acumulador.obj)); {
     return acumulador * obj.likes
-  } 0);
+  } 0;
 
 }
 

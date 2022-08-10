@@ -1,5 +1,3 @@
-//Mirar todo lo que hice
-
 // No cambies los nombres de las funciones
 
 function mayuscula(nombre) {
@@ -7,12 +5,14 @@ function mayuscula(nombre) {
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
   return "Walter";
+
 }
 
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
   cb();
+
 }
 
 function operacionMatematica(n1, n2, cb) {
@@ -20,6 +20,7 @@ function operacionMatematica(n1, n2, cb) {
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
   return cb(n1, n2);
+
 }
 
 function sumarArray(numeros, cb) {
@@ -70,6 +71,7 @@ function filter(array) {
   })
 
   console.log(resultado);
+  
 } 
 
 
